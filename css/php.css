@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/*    リセット    */
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border: none;
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #1c233f;
+  padding: 0 20px;
+  color: #f0f0f0;
+  font-size: 1.6rem;
+  font-family: "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo,
+    sans-serif;
+  font-family: "Noto Serif JP", serif;
+}
+
+.plan {
+  padding-bottom: 40px;
+}
+.plan .plans {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #ffe9c9;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.plan .plans h3 {
+  color: #6077d2;
+  margin: 30px 0;
+  font-size: 1.5em;
+}
+.plan .plans p {
+  color: #0f0f0f;
+  text-align: center;
+  width: 95%;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: 600;
+}
+.plan .plans p span {
+  color: #6077d2;
+  font-size: 1.3em;
+}
+form{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    max-width: 450px;
+    margin: 0 auto;
+}
+form p{
+    font-size: 1.5em;
+    margin: 0 20px;
+    max-width: 450px;
+}
+.input{
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-bottom: 10px;
+}
+.input .inputcolumn{
+    align-items: center;
+  justify-content:center;
+  text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.input .inputcolumn label{
+display:inline-block;
+  width:143px;
+  
+}
+
+#body{
+    margin-bottom: 10px;
+}
+.submitBtn{
+    margin: 10px auto;
+    width: 50px;
+}
+form > input{
+    height: 40px;
+}
+
+
+/* confirm.php */
+
+.form-container{
+    margin: 40px auto;
+}
+
+.form-container h2,p{
+  text-align:center;
+}
+.form-container th{
+  text-align:left;
+  width:80px;
+}
+
+.confirm-table{
+    margin: 10px auto;
+}
+
+form .c-btn{
+    margin: 20px auto;
+    width:50px;
+}
+
+form .c-form{
+    margin-top: 0;
+}
+
+/* send.php */
+body{
+    margin: 40px auto;
+}
+
+.TOtop{
+    margin: 10px auto;
+    display: block;
+}
+
+@media (min-width: 750px) {
+  .plan {
+    display: flex;
+  }
+  .plan .plans {
+    width: calc(100% / 3);
+    margin: 0 10px;
+    margin-top: 40px;
+  }
+}
